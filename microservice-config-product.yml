@@ -2,7 +2,6 @@ spring:
   profiles:
     active: dev # 激活开发环境配置
 ---
-debug: true
 server:
   port: 8003
 spring:
@@ -41,7 +40,6 @@ management:
         include: hystrix.stream
 
 ---
-debug: true
 server:
   port: 8003
 spring:
