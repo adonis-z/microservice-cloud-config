@@ -33,11 +33,6 @@ eureka:
   instance:
     instanceId: ${spring.application.name}:${server.port}
     prefer-ip-address: true
-management:
-  endpoints:
-    web:
-      exposure:
-        include: hystrix.stream
 
 ---
 server:
@@ -71,8 +66,4 @@ eureka:
   instance:
     instanceId: ${spring.application.name}:${server.port}
     prefer-ip-address: true
-management:
-  endpoints:
-    web:
-      exposure:
-        include: hystrix.stream
+
